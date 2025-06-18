@@ -3,6 +3,10 @@
 }
 body {
     background-color: #041a33;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    display: flex;
 }
 
 /* This is for header nav */
@@ -22,7 +26,7 @@ body {
     justify-content: center;
     align-items: center;
     gap: 2rem;
-    padding-left: 1rem;
+    padding-left: 3rem;
     padding-right: 1rem;
 }
 .profile-photo {
@@ -48,4 +52,52 @@ body {
     font-weight: 700;
     line-height: normal;
     width: 15rem;
+}
+
+/* Test at front */
+.opening {
+    margin-top: 35vh;
+    padding-left: 10%;
+    padding-right: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+.opening * {
+    padding: 0;
+    margin: 0;
+}
+.opening-name {
+    color: #fff;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.opening-intro {
+    color: #fff;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.btn-email-me {
+    border-radius: 10px;
+    border: 1px solid #fff;
+    background: #041a33;
+    box-shadow: 0px 2px 12px 3px rgba(203, 242, 240, 0.25);
+    width: 198px;
+    height: 48px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: #fff;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
 }
