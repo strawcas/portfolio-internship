@@ -47,7 +47,7 @@ scene.add(cube);
 cube.scale.set(2, 2, 2); // Scale x, y, z to 2x size
 
 // === Lighting ===
-const ambientLight = new THREE.AmbientLight(0xffffff, 1.5); // Soft white light
+const ambientLight = new THREE.AmbientLight(0xffffff, 2); // Soft white light
 scene.add(ambientLight);
 
 // === Responsive Resize ===
