@@ -23,22 +23,22 @@ container.appendChild(renderer.domElement);
 const geometry = new THREE.BoxGeometry(1, 1, 1);
 const materials = [
     new THREE.MeshStandardMaterial({
-        map: new THREE.TextureLoader().load("/Assets/html.jpg"),
+        map: new THREE.TextureLoader().load("Assets/html.jpg"),
     }),
     new THREE.MeshStandardMaterial({
-        map: new THREE.TextureLoader().load("/Assets/css.jpeg"),
+        map: new THREE.TextureLoader().load("Assets/css.jpeg"),
     }),
     new THREE.MeshStandardMaterial({
-        map: new THREE.TextureLoader().load("/Assets/JavaScript.png"),
+        map: new THREE.TextureLoader().load("Assets/JavaScript.png"),
     }),
     new THREE.MeshStandardMaterial({
-        map: new THREE.TextureLoader().load("/Assets/php.jpeg"),
+        map: new THREE.TextureLoader().load("Assets/php.jpeg"),
     }),
     new THREE.MeshStandardMaterial({
-        map: new THREE.TextureLoader().load("/Assets/laravel.png"),
+        map: new THREE.TextureLoader().load("Assets/laravel.png"),
     }),
     new THREE.MeshStandardMaterial({
-        map: new THREE.TextureLoader().load("/Assets/mysql.jpg"),
+        map: new THREE.TextureLoader().load("Assets/mysql.jpg"),
     }),
 ];
 
@@ -47,7 +47,7 @@ scene.add(cube);
 cube.scale.set(2, 2, 2); // Scale x, y, z to 2x size
 
 // === Lighting ===
-const ambientLight = new THREE.AmbientLight(0xffffff, 2); // Soft white light
+const ambientLight = new THREE.AmbientLight(0xffffff, 1.5); // Soft white light
 scene.add(ambientLight);
 
 // === Responsive Resize ===
