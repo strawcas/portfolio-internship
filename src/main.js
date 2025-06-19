@@ -23,22 +23,22 @@ container.appendChild(renderer.domElement);
 const geometry = new THREE.BoxGeometry(1, 1, 1);
 const materials = [
     new THREE.MeshStandardMaterial({
-        map: new THREE.TextureLoader().load("/Assets/html.png"),
+        map: new THREE.TextureLoader().load("/Assets/html.jpg"),
     }),
     new THREE.MeshStandardMaterial({
-        map: new THREE.TextureLoader().load("/Assets/css.png"),
+        map: new THREE.TextureLoader().load("/Assets/css.jpeg"),
     }),
     new THREE.MeshStandardMaterial({
         map: new THREE.TextureLoader().load("/Assets/JavaScript.png"),
     }),
     new THREE.MeshStandardMaterial({
-        map: new THREE.TextureLoader().load("/Assets/php.png"),
+        map: new THREE.TextureLoader().load("/Assets/php.jpeg"),
     }),
     new THREE.MeshStandardMaterial({
-        map: new THREE.TextureLoader().load("/Assets/mysql.png"),
+        map: new THREE.TextureLoader().load("/Assets/laravel.png"),
     }),
     new THREE.MeshStandardMaterial({
-        map: new THREE.TextureLoader().load("/Assets/godot.png"),
+        map: new THREE.TextureLoader().load("/Assets/mysql.jpg"),
     }),
 ];
 
@@ -47,15 +47,8 @@ scene.add(cube);
 cube.scale.set(2, 2, 2); // Scale x, y, z to 2x size
 
 // === Lighting ===
-const ambientLight = new THREE.AmbientLight(0xffffff, 0.1); // Soft white light
+const ambientLight = new THREE.AmbientLight(0xffffff, 2); // Soft white light
 scene.add(ambientLight);
-
-const pointLight = new THREE.PointLight(0xffffff, 105);
-pointLight.position.set(3, 3, 3);
-scene.add(pointLight);
-
-const pointLightHelper = new THREE.PointLightHelper(pointLight);
-scene.add(pointLightHelper);
 
 // === Responsive Resize ===
 window.addEventListener("resize", () => {
