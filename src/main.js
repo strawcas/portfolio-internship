@@ -23,22 +23,22 @@ container.appendChild(renderer.domElement);
 const geometry = new THREE.BoxGeometry(1, 1, 1);
 const materials = [
     new THREE.MeshStandardMaterial({
-        map: new THREE.TextureLoader().load("public/Assets/html.jpg"),
+        map: new THREE.TextureLoader().load("/Assets/html.jpg"),
     }),
     new THREE.MeshStandardMaterial({
-        map: new THREE.TextureLoader().load("public/Assets/css.jpeg"),
+        map: new THREE.TextureLoader().load("/Assets/css.jpeg"),
     }),
     new THREE.MeshStandardMaterial({
-        map: new THREE.TextureLoader().load("public/Assets/JavaScript.png"),
+        map: new THREE.TextureLoader().load("/Assets/JavaScript.png"),
     }),
     new THREE.MeshStandardMaterial({
-        map: new THREE.TextureLoader().load("public/Assets/php.jpeg"),
+        map: new THREE.TextureLoader().load("/Assets/php.jpeg"),
     }),
     new THREE.MeshStandardMaterial({
-        map: new THREE.TextureLoader().load("public/Assets/laravel.png"),
+        map: new THREE.TextureLoader().load("/Assets/laravel.png"),
     }),
     new THREE.MeshStandardMaterial({
-        map: new THREE.TextureLoader().load("public/Assets/mysql.jpg"),
+        map: new THREE.TextureLoader().load("/Assets/mysql.jpg"),
     }),
 ];
 
