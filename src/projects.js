@@ -16,7 +16,7 @@ function generateMarkup(title, description, tech, repo, liveLink, images) {
                             href="${repo}"
                             target="_blank"
                             ><img
-                                src="public/github-icon.png"
+                                src="github-icon.png"
                                 alt="github"
                                 class="project-github"
                         /></a>
@@ -27,7 +27,7 @@ function generateMarkup(title, description, tech, repo, liveLink, images) {
                         >
                             <img
                                 class="project-link-icon"
-                                src="public/link-icon.png"
+                                src="link-icon.png"
                                 alt=""
                             />
                         </a>
@@ -49,15 +49,7 @@ function generateMarkup(title, description, tech, repo, liveLink, images) {
 `;
     return markup;
 }
-// "images": [
-//     "public/project-images/forkify1.png",
-//     "public/project-images/forkify2.png"
-// ],
-// "title": "FORKIFY",
-// "description": "A website for searching, creating, and bookmarking recipes using the Forkify API.",
-// "tech": ["JavaScript", "REST API", "HTML/CSS (SASS)"],
-// "repo": "https://github.com/thespellbinder2004/CCS-Merch-Site",
-// "live-link": "http://ccsmerchsite.ct.ws"
+
 let projectMarkup = "";
 fetch("projects.json")
     .then((response) => response.json())

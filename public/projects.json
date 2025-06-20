@@ -3,8 +3,8 @@
         {
             "title": "TSU CCS MERCH E-COMMERCE SITE",
             "images": [
-                "public/project-images/tsuccsmerchsite1.png",
-                "public/project-images/tsuccsmerchsite2.png"
+                "project-images/tsuccsmerchsite1.png",
+                "project-images/tsuccsmerchsite2.png"
             ],
             "description": "An Online Store for TSU College of Computer Studies Merch",
             "tech": "PHP, MySQL, HTML/CSS, JavaScript",
@@ -13,8 +13,8 @@
         },
         {
             "images": [
-                "public/project-images/forkify1.png",
-                "public/project-images/forkify2.png"
+                "project-images/forkify1.png",
+                "project-images/forkify2.png"
             ],
             "title": "FORKIFY",
             "description": "A website for searching, creating, and bookmarking recipes using the Forkify API.",
@@ -24,8 +24,8 @@
         },
         {
             "images": [
-                "public/project-images/mapty1.png",
-                "public/project-images/mapty2.png"
+                "project-images/mapty1.png",
+                "project-images/mapty2.png"
             ],
             "title": "Mapty",
             "description": "A website for tracking workouts using the Leaflet.js library.",
@@ -35,8 +35,8 @@
         },
         {
             "images": [
-                "public/project-images/page-replacement1.png",
-                "public/project-images/page-replacement2.png"
+                "project-images/page-replacement1.png",
+                "project-images/page-replacement2.png"
             ],
             "title": "FIFO Replacement Simulator",
             "description": "A website for simulating FIFO page replacement algorithm.",
@@ -47,8 +47,8 @@
 
         {
             "images": [
-                "public/project-images/esp32.1.jpg",
-                "public/project-images/esp32.2.jpg"
+                "project-images/esp32.1.jpg",
+                "project-images/esp32.2.jpg"
             ],
             "title": "ESP32 Plant Watering System",
             "description": "Plant watering system using ESP32 microcontroller.",
@@ -58,8 +58,8 @@
         },
         {
             "images": [
-                "public/project-images/leonidas1.png",
-                "public/project-images/leonidas2.png"
+                "project-images/leonidas1.png",
+                "project-images/leonidas2.png"
             ],
             "title": "Leonidas Survival",
             "description": "Video Game made in Godot Engine. Unfortunately, storage got corrupted, and I lost everything 💔",
