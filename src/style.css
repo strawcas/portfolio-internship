@@ -319,13 +319,6 @@ section {
     align-items: center;
     justify-content: center;
 }
-.contact-header {
-    color: #fff;
-    font-size: 64px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-}
 .contact-description {
     color: #fff;
     text-align: center;
@@ -364,4 +357,8 @@ section {
     height: 100%;
     align-items: center;
     justify-content: center;
+}
+
+@media (max-width: 1520px) {
+    /* CSS rules here apply when the screen width is 1520px or less */
 }

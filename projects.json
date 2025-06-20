@@ -24,14 +24,48 @@
         },
         {
             "images": [
-                "public/project-images/forkify1.png",
-                "public/project-images/forkify2.png"
+                "public/project-images/mapty1.png",
+                "public/project-images/mapty2.png"
             ],
-            "title": "FORKIFY",
-            "description": "A website for searching, creating, and bookmarking recipes using the Forkify API.",
-            "tech": "JavaScript, REST API, HTML/CSS (SASS)",
-            "repo": "https://github.com/thespellbinder2004/CCS-Merch-Site",
-            "liveLink": "http://ccsmerchsite.ct.ws"
+            "title": "Mapty",
+            "description": "A website for tracking workouts using the Leaflet.js library.",
+            "tech": "JavaScript, Leaflet.js, HTML/CSS",
+            "repo": "https://github.com/thespellbinder2004/Mapty",
+            "liveLink": "https://maptybyjonasandjoseph.netlify.app/"
+        },
+        {
+            "images": [
+                "public/project-images/page-replacement1.png",
+                "public/project-images/page-replacement2.png"
+            ],
+            "title": "FIFO Replacement Simulator",
+            "description": "A website for simulating FIFO page replacement algorithm.",
+            "tech": "JavaScript, Tailwind CSS, HTML",
+            "repo": "https://github.com/thespellbinder2004/FIFO-Page-Replacement",
+            "liveLink": "https://ariellecasestudy.netlify.app/"
+        },
+
+        {
+            "images": [
+                "public/project-images/esp32.1.jpg",
+                "public/project-images/esp32.2.jpg"
+            ],
+            "title": "ESP32 Plant Watering System",
+            "description": "Plant watering system using ESP32 microcontroller.",
+            "tech": "C++, PlatformIO, ESP32",
+            "repo": "https://github.com/thespellbinder2004/Automatic-Plant-Watering-System",
+            "liveLink": "https://github.com/thespellbinder2004/Automatic-Plant-Watering-System"
+        },
+        {
+            "images": [
+                "public/project-images/leonidas1.png",
+                "public/project-images/leonidas2.png"
+            ],
+            "title": "Leonidas Survival",
+            "description": "Video Game made in Godot Engine. Unfortunately, storage got corrupted, and I lost everything 💔",
+            "tech": "GDScript",
+            "repo": "https://github.com/thespellbinder2004",
+            "liveLink": "https://github.com/thespellbinder2004"
         }
     ]
 }
