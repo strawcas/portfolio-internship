@@ -1,0 +1,37 @@
+{
+    "projects": [
+        {
+            "title": "TSU CCS MERCH E-COMMERCE SITE",
+            "images": [
+                "public/project-images/tsuccsmerchsite1.png",
+                "public/project-images/tsuccsmerchsite2.png"
+            ],
+            "description": "An Online Store for TSU College of Computer Studies Merch",
+            "tech": "PHP, MySQL, HTML/CSS, JavaScript",
+            "repo": "https://github.com/thespellbinder2004/CCS-Merch-Site",
+            "liveLink": "http://ccsmerchsite.ct.ws"
+        },
+        {
+            "images": [
+                "public/project-images/forkify1.png",
+                "public/project-images/forkify2.png"
+            ],
+            "title": "FORKIFY",
+            "description": "A website for searching, creating, and bookmarking recipes using the Forkify API.",
+            "tech": "JavaScript, REST API, HTML/CSS (SASS)",
+            "repo": "https://github.com/thespellbinder2004/CCS-Merch-Site",
+            "liveLink": "http://ccsmerchsite.ct.ws"
+        },
+        {
+            "images": [
+                "public/project-images/forkify1.png",
+                "public/project-images/forkify2.png"
+            ],
+            "title": "FORKIFY",
+            "description": "A website for searching, creating, and bookmarking recipes using the Forkify API.",
+            "tech": "JavaScript, REST API, HTML/CSS (SASS)",
+            "repo": "https://github.com/thespellbinder2004/CCS-Merch-Site",
+            "liveLink": "http://ccsmerchsite.ct.ws"
+        }
+    ]
+}

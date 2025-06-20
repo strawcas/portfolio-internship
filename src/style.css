@@ -159,7 +159,7 @@ section {
 /* For the Main Contents */
 .header-title {
     color: #fff;
-    font-size: 36px;
+    font-size: 64px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -168,7 +168,7 @@ section {
     text-align: left;
     margin-left: 10rem;
     margin-top: 30rem;
-    margin-bottom: 10rem;
+    margin-bottom: 5rem;
 }
 .tech-stack {
     display: flex;
@@ -181,9 +181,9 @@ section {
     flex-direction: column;
     align-items: center;
     justify-content: baseline;
-    gap: 1em;
+    gap: 0.2rem;
     width: 444px;
-    height: 686px;
+    height: 35rem;
     flex-shrink: 0;
     border-radius: 15px;
     border: 2px solid #fff;
@@ -215,7 +215,7 @@ section {
     text-align: right;
     margin-right: 10rem;
     margin-top: 30rem;
-    margin-bottom: 10rem;
+    margin-bottom: 5rem;
 }
 .my-projects {
     display: flex;
@@ -236,6 +236,7 @@ section {
     align-items: left;
     padding: 0;
     margin: 0;
+    margin-top: 2rem;
 }
 .project-section-1 {
     width: 40%;
@@ -308,4 +309,59 @@ section {
     height: 80%;
     object-fit: cover;
     object-position: center;
+}
+
+/* This is for contact */
+.contact {
+    margin-top: 20rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.contact-header {
+    color: #fff;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.contact-description {
+    color: #fff;
+    text-align: center;
+    font-size: 32px;
+    padding-left: 30%;
+    padding-right: 30%;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 5rem;
+}
+.contact-other {
+    color: #fff;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.contact-other-or {
+    margin-top: 5rem;
+}
+.footer {
+    background: #021526;
+    box-shadow: 0px 2px 12.2px 5px rgba(203, 242, 240, 0.25);
+    min-height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin-top: 15rem;
+}
+.copyright {
+    display: flex;
+    padding: 0;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
 }
