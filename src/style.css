@@ -483,6 +483,80 @@ section {
         margin-right: 0;
         text-align: center;
     }
+    /* Projects */
+    .header-title-my-projects {
+        margin-right: 0;
+        text-align: center;
+    }
+    .my-projects {
+        gap: 1rem;
+    }
+    .project-container {
+        width: 80%;
+        height: 22rem;
+        padding: 0;
+        margin: 0;
+        margin-top: 0rem;
+    }
+    .project-section-1 {
+        gap: 2rem;
+    }
+    .project-section-2 {
+        flex-direction: column;
+    }
+    .project-image {
+        width: 80%;
+        height: 45%;
+        object-fit: cover;
+        object-position: center;
+    }
+    .project-title {
+        font-size: 20px;
+    }
+    .project-description {
+        font-size: 16px;
+    }
+    .project-techs {
+        font-size: 14px;
+    }
+    .project-github {
+        width: 40px;
+        height: 40px;
+        background: url(../public/github-icon.png) no-repeat center center;
+        background-size: contain;
+        background-color: transparent; /* if needed */
+        border-radius: 5px;
+    }
+    .project-link-icon {
+        width: 20px;
+        height: 20px;
+    }
+    .contact {
+        margin-top: 5rem;
+    }
+    .contact-description {
+        padding: 0;
+        padding-left: 5%;
+        padding-right: 5%;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    .contact-header {
+        margin-bottom: 1rem;
+    }
+    .contact-other-or {
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+    }
+    .header-title-tech-stack {
+        margin-top: 15rem;
+    }
+    .header-title-my-projects {
+        margin-top: 15rem;
+    }
+    .footer {
+        margin-top: 10rem;
+    }
 }
 @media (max-width: 902px) {
     .nav-header {
@@ -494,10 +568,10 @@ section {
         flex-wrap: wrap;
     }
     .opening {
-        flex-wrap: wrap;
-    }
-    .opening {
+        padding-right: 1rem;
+        padding-left: 1rem;
         gap: 1rem;
+        flex-wrap: wrap;
     }
     section {
         width: 90%;
@@ -508,5 +582,53 @@ section {
     }
     .opening-intro {
         text-align: center;
+    }
+    .header-title-tech-stack {
+        margin-top: 10rem;
+    }
+    .header-title-my-projects {
+        margin-top: 10rem;
+    }
+    .project-container {
+        flex-direction: column;
+        height: auto;
+        justify-self: center;
+        align-items: center;
+    }
+    .project-section-1 {
+        margin: 0;
+        margin-top: 1rem;
+        padding: 0;
+        width: 90%;
+        align-items: center;
+        gap: 1rem;
+    }
+    .project-title {
+        text-align: center;
+    }
+    .project-description {
+        text-align: center;
+    }
+    .project-section-2 {
+        width: 90%;
+        margin-bottom: 1rem;
+    }
+}
+@media (max-width: 560px) {
+    .contact {
+        margin-top: 5rem;
+    }
+    .contact-description {
+        font-size: 20px;
+    }
+    .contact-header {
+        font-size: 24px;
+    }
+    .contact-other {
+        font-size: 20px;
+    }
+
+    .copyright {
+        font-size: 0.8rem;
     }
 }

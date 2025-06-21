@@ -41,7 +41,9 @@
     .nav-header {
         display: none;
     }
-
+    .opening {
+        margin-top: 7rem;
+    }
     .nav-header-responsive {
         display: block;
         width: 100%;
@@ -50,7 +52,7 @@
         z-index: 100;
         background: #021526;
         box-shadow: 0px 2px 12.2px 5px rgba(203, 242, 240, 0.08);
-        padding: 1rem 2rem;
+        padding: 0.5rem 2rem;
     }
 
     .mobile-nav-header {
@@ -58,7 +60,10 @@
         justify-content: space-between;
         align-items: center;
     }
-
+    .profile-photo {
+        width: 50px;
+        height: 50px;
+    }
     .hamburger {
         font-size: 30px;
         background: none;
@@ -82,5 +87,8 @@
 
     .mobile-menu.active {
         display: flex;
+    }
+    .btn-email-me {
+        scale: 90%;
     }
 }
