@@ -125,7 +125,7 @@ cameraBackground.position.z = 1;
 
 // Create stars with random movement
 const starGeometry = new THREE.BufferGeometry();
-const starCount = 3800;
+const starCount = 8800;
 const starVertices = [];
 const starVelocities = [];
 

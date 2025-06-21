@@ -584,7 +584,7 @@ section {
         text-align: center;
     }
     .header-title-tech-stack {
-        margin-top: 17rem;
+        margin-top: 20rem;
     }
     .header-title-my-projects {
         margin-top: 10rem;
@@ -615,6 +615,10 @@ section {
     }
 }
 @media (max-width: 560px) {
+    .opening-intro {
+        font-size: 26px;
+    }
+
     .contact {
         margin-top: 5rem;
     }

@@ -20,7 +20,7 @@
             "description": "A website for searching, creating, and bookmarking recipes using the Forkify API.",
             "tech": "JavaScript, REST API, HTML/CSS (SASS)",
             "repo": "https://github.com/thespellbinder2004/CCS-Merch-Site",
-            "liveLink": "http://ccsmerchsite.ct.ws"
+            "liveLink": "https://forkify-by-josephgabriel.netlify.app/"
         },
         {
             "images": [
